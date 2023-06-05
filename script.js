@@ -77,6 +77,7 @@ function removeExpense(event) {
         amount += expVal;
         balance.innerText = "$ " + String(amount);
         budAmount -= expVal;
+        totalExpense -= expVal;
         expense.innerText = "$ " + String(budAmount);
     }
 }
