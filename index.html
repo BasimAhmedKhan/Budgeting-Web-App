@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Budgetting App</title>
+</head>
+
+<body>
+    <div class="container center">
+        <div class="balanceHead">
+            <div class="balance">
+                <p>My Balance</p>
+                <h1 id="balanceVal">$ 000</h1>
+            </div>
+            <img src="./logo.svg" alt="">
+        </div>
+        <div class="formContainer">
+            <h2>ADD BUDGET</h1>
+            <div class="budgetInput">
+                <input type="number" placeholder="Enter Amount in Numbers, e.g.5000" id="budget">
+                <button onclick="addBudget();">Add Budget</button>
+            </div>
+            <h2>ADD EXPENSE</h1>
+            <div class="expenseInput">
+                <select name="description" id="description" required>
+                    <option value="" selected hidden disabled>Description</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Groceries">Groceries</option>
+                    <option value="Shoping">Shoping</option>
+                    <option value="Vehicle">Vehicle</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="number" placeholder="Enter Amount" id="expenseVal">
+                <input type="date" name="date" id="date">
+                <button onclick="addExpense();">Add Expense</button>
+            </div> 
+        </div>
+        <div class="overview balanceHead">
+            <div>
+                <p>Total Budget</p>
+                <h1 id="total">$ 000</h1>
+            </div>
+            <div>
+                <p>Expenses</p>
+                <h1 id="expense">$ 000</h1>
+            </div>
+        </div>
+        <div class="expenseList formContainer">
+            <h2>Expense List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Description</td>
+                        <td>Amount</td>
+                        <td>Date</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="expenseList">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
