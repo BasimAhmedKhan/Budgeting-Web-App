@@ -47,7 +47,7 @@ Thanks a Bunch for Stopping By! <3
 
 | Resource                                                               | Description                                                                                                           |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [frontendmentor][frontendmentor]                                                     | Based on this beautiful template by [frontendmentor] |
+| [frontendmentor][frontendmentor]                                                     | For the UI I took Inspiration from this Template  [frontendmentor] |
 
 [frontendmentor]: https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt
 
