@@ -2,7 +2,7 @@
 
 Budgeting Web App made using HTML, CSS, JS. A Budgeting App can help you calculate your monthly budget and manage your expense in order.
 
-Check Out the Live Version  &#10230;  [Budgeting-Web-App](https://basimahmedkhan.github.io/Budgeting-Web-App/)
+Check Out the Live Version  &#10230;  [Budgeting-Web-App](https://budgeting-web-app.vercel.app/)
 
 
 ## Screenshots
